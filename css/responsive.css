@@ -1,0 +1,263 @@
+/* Desktop */
+@media (max-width:1440px) {}
+
+@media (max-width:1320px) {}
+
+@media (max-width:1290px) {}
+
+@media (max-width:1170px) {}
+
+@media (max-width:1140px) {}
+
+@media (max-width:1024px) {}
+
+@media (max-width:992px) {}
+
+@media (max-width:850px) {}
+
+/* Tab */
+@media (max-width:768px) {
+    .mainMenuBox {
+        display: none !important;
+    }
+
+    .topMain-logo {
+        position: absolute;
+        top: 13%;
+        right: 33%;
+        color: black;
+    }
+
+    .topMain-logo img {
+        width: 23%;
+    }
+
+    .topMain-logo p {
+        font-size: 15px;
+    }
+
+    .headerMenuBox .borderedBtn {
+        position: absolute;
+        left: -58px;
+        top: -22px;
+    }
+
+    .additionalFuntions {
+        position: absolute;
+        top: 15%;
+        right: 4%;
+    }
+
+    .additionalFuntions a {
+        color: black !important;
+    }
+
+    .additionalFuntions a i {
+        color: black !important;
+    }
+
+    .topMainMenu {
+        padding: 32px 0;
+    }
+
+    .topMainMenu ul {
+        column-gap: 45px;
+    }
+
+    .logoTextBox__title {
+        margin-top: 5%;
+    }
+
+    .onlineSchool__info h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .onlineSchool__info p {
+        font-size: 18px;
+    }
+
+    .onlineSchool__img img {
+        text-align: center;
+        width: 56%;
+        margin-top: 15%;
+    }
+
+    .contact_row3 input {
+        width: 48%;
+        margin-left: 26%;
+    }
+
+    .contact__title {
+        text-align: center;
+        margin: 10% 0;
+    }
+
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+
+    .slider_content h1 {
+        font-size: 12px;
+    }
+
+    .footer_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 33px;
+    }
+
+    .footer_menu li {
+        padding: 0;
+        border: none;
+        display: flex;
+    }
+
+    .footer_menu li a {
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    .footer_contact-left {
+        margin-left: 0;
+    }
+
+    .footer_contact-right {
+        margin-right: 41px;
+    }
+
+    .footer_logo a {
+        margin-top: 6%;
+    }
+
+    a.it_live-logo img {
+        width: 20%;
+    }
+}
+
+@media (max-width:736px) {}
+
+@media (max-width:734px) {}
+
+@media (max-width:684px) {}
+
+@media (max-width:667px) {}
+
+/* Mobile */
+@media (max-width:576px) {
+    .topMain-logo {
+        position: absolute;
+        top: 17%;
+        right: 32%;
+        color: black;
+    }
+
+    .topMain-logo p {
+        font-size: 13px;
+    }
+
+    .additionalFuntions {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+    }
+
+    .topMainMenu ul {
+        column-gap: 18px;
+    }
+
+    .mainServicesList {
+        margin-top: 95px;
+    }
+
+    .bigBannerContent {
+        background-position: center center;
+        background-size: cover;
+        z-index: 1;
+        opacity: 1.2;
+        margin-top: -74px;
+        height: 498px;
+    }
+
+    .logoTextBox {
+        height: 498px;
+    }
+
+    .logoTextBox__title {
+        margin-top: 0%;
+        font-size: 19px;
+    }
+
+    .quote p {
+        font-size: 15px;
+    }
+
+    .quote {
+        padding-top: 27px;
+    }
+
+    .school_info {
+        margin-left: 31%;
+    }
+
+    .onlineSchool {
+        margin-top: 85px;
+        padding: 0;
+    }
+
+    .onlineSchool__info p {
+        font-size: 17px;
+    }
+
+    .onlineSchool__info {
+        text-align: center;
+    }
+
+    .onlineSchool__info h1 {
+        font-size: 26px;
+    }
+
+    .footer_logo a {
+        margin-top: 13%;
+    }
+
+    .footer .footer_contact-right a span {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+
+    .footer .footer_contact-left a span {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+
+    .footer .footer_contact-left a i {
+        font-size: 30px;
+        width: 43px;
+        text-align: center;
+    }
+
+    .footer .footer_contact-right a i {
+        font-size: 30px;
+        width: 43px;
+        text-align: center;
+    }
+
+    .contact_row3 input {
+        width: 64%;
+        margin-left: 18%;
+    }
+
+}
+
+@media (max-width:480px) {}
+
+@media (max-width:412px) {}
+
+@media (max-width:375px) {}
+
+@media (max-width:360px) {}
+
+@media (max-width:320px) {}
