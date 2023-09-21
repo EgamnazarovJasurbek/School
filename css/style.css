@@ -44,7 +44,7 @@ ul li {
 /* Big Menu === */
 .bigMenuBtn {
     position: relative;
-    top: -35px;
+    top: -25px;
     left: 10%;
     z-index: 999;
 }
@@ -455,7 +455,7 @@ ul li {
 
 .dropdown {
     position: relative;
-    top: -61px;
+    top: -50px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
