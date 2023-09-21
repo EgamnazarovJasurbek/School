@@ -45,6 +45,11 @@
 }
 
 @media (max-width:412px) {
+
+    .it_live-img {
+        width: 35% !important;
+    }
+
     .mainMenuBox {
         display: none !important;
     }
@@ -226,8 +231,12 @@
 }
 
 @media (max-width:375px) {
+    .it_live-img {
+        width: 35% !important;
+    }
 
-    .mainMenuBox {
+    .bottomMainMenu,
+    .menuLine {
         display: none !important;
     }
 
@@ -333,14 +342,17 @@
     }
 
     .contact_row3 input {
-        width: 100%;
+        width: 97%;
     }
+
     .contact_row1 {
         margin-left: 0px;
     }
+
     .contact_row2 {
         margin-left: 0px;
     }
+
     .contact_row3 {
         margin-left: 0px;
     }
