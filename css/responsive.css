@@ -16,15 +16,47 @@
 @media (max-width:850px) {}
 
 /* Tab */
-@media (max-width:768px) {
+@media (max-width:768px) {}
+
+@media (max-width:736px) {}
+
+@media (max-width:734px) {}
+
+@media (max-width:684px) {}
+
+@media (max-width:667px) {}
+
+/* Mobile */
+@media (max-width:576px) {
+    .mainMenuBox {
+        display: none !important;
+    }
+}
+
+@media (max-width:480px) {
+
     .mainMenuBox {
         display: none !important;
     }
 
+    .title::after {
+        content: unset !important;
+    }
+}
+
+@media (max-width:412px) {
+    .mainMenuBox {
+        display: none !important;
+    }
+
+    .title::after {
+        content: unset !important;
+    }
+
     .topMain-logo {
         position: absolute;
-        top: 13%;
-        right: 33%;
+        top: 8%;
+        right: 35%;
         color: black;
     }
 
@@ -37,15 +69,17 @@
     }
 
     .headerMenuBox .borderedBtn {
+        width: 54px;
+        height: 54px;
         position: absolute;
-        left: -58px;
-        top: -22px;
+        left: -27px;
+        top: -13px;
     }
 
     .additionalFuntions {
         position: absolute;
-        top: 15%;
-        right: 4%;
+        top: 12%;
+        right: 3%;
     }
 
     .additionalFuntions a {
@@ -57,24 +91,40 @@
     }
 
     .topMainMenu {
-        padding: 32px 0;
+        padding: 13px 0;
     }
 
-    .topMainMenu ul {
-        column-gap: 45px;
+    .topMainMenu li a {
+        font-size: 6px;
     }
+
 
     .logoTextBox__title {
         margin-top: 5%;
+        font-size: 19px;
+    }
+
+    .quote {
+        padding-top: 44px;
+    }
+
+    .school_info {
+        margin-left: 95px;
+    }
+
+    .onlineSchool__info {
+        text-align: center;
+        padding-left: 26px;
     }
 
     .onlineSchool__info h1 {
-        font-size: 35px;
+        font-size: 26px;
         text-align: center;
     }
 
     .onlineSchool__info p {
-        font-size: 18px;
+        font-size: 12px;
+        text-align: center;
     }
 
     .onlineSchool__img img {
@@ -83,9 +133,20 @@
         margin-top: 15%;
     }
 
+    .contact_row1 {
+        margin-left: 14px;
+    }
+
+    .contact_row2 {
+        margin-left: 14px;
+    }
+
+    .contact_row3 {
+        margin-left: 14px;
+    }
+
     .contact_row3 input {
-        width: 48%;
-        margin-left: 26%;
+        width: 92%;
     }
 
     .contact__title {
@@ -104,54 +165,261 @@
 
     .footer_menu {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        column-gap: 33px;
+        row-gap: 24px;
     }
 
     .footer_menu li {
-        padding: 0;
         border: none;
-        display: flex;
     }
 
-    .footer_menu li a {
-        font-size: 12px;
-        text-decoration: none;
+    .footer .footer_contact-left a {
+        font-size: 11px;
     }
 
-    .footer_contact-left {
+    .footer .footer_contact-left a span {
         margin-left: 0;
     }
 
+    .footer_contact-left {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .footer .footer_contact-right a {
+        font-size: 11px;
+    }
+
+    .footer .footer_contact-right a span {
+        margin-left: 0;
+    }
+
+    .footer .footer_contact-right a i {
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+    }
+
+    .footer .footer_contact-left a i {
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+    }
+
     .footer_contact-right {
-        margin-right: 41px;
+        margin-right: 22px;
+        margin-top: 0;
     }
 
     .footer_logo a {
-        margin-top: 6%;
+        margin-top: 8%;
+        font-size: 16px;
     }
 
-    a.it_live-logo img {
-        width: 20%;
+    .footer_logo {
+        margin-top: 90px;
     }
+
+
 }
 
-@media (max-width:736px) {}
+@media (max-width:375px) {
 
-@media (max-width:734px) {}
+    .mainMenuBox {
+        display: none !important;
+    }
 
-@media (max-width:684px) {}
+    .bigBannerContent {
+        height: 550px;
+    }
 
-@media (max-width:667px) {}
+    .logoTextBox {
+        height: 550px;
+    }
 
-/* Mobile */
-@media (max-width:576px) {
-    .title::after{
-        content: unset;
+    .mainServicesList {
+        margin-top: 90px;
+        margin-bottom: 40px;
+    }
+
+    .title::after {
+        content: unset !important;
     }
 
     .topMain-logo {
+        position: absolute;
+        top: 8%;
+        right: 35%;
+        color: black;
+    }
+
+    .topMain-logo img {
+        width: 23%;
+    }
+
+    .topMain-logo p {
+        font-size: 15px;
+    }
+
+    .headerMenuBox .borderedBtn {
+        width: 54px;
+        height: 54px;
+        position: absolute;
+        left: -27px;
+        top: -13px;
+    }
+
+    .additionalFuntions {
+        position: absolute;
+        top: 12%;
+        right: 3%;
+    }
+
+    .additionalFuntions a {
+        color: black !important;
+    }
+
+    .additionalFuntions a i {
+        color: black !important;
+    }
+
+    .topMainMenu {
+        padding: 13px 0;
+    }
+
+    .topMainMenu li a {
+        font-size: 6px;
+    }
+
+
+    .logoTextBox__title {
+        margin-top: 5%;
+        font-size: 19px;
+    }
+
+    .quote {
+        padding-top: 44px;
+    }
+
+    .school_info {
+        margin-left: 75px;
+    }
+
+    .onlineSchool__info {
+        text-align: center;
+    }
+
+    .onlineSchool {
+        padding-top: 0;
+    }
+
+    .onlineSchool__info h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .onlineSchool__info p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .onlineSchool__img img {
+        text-align: center;
+        width: 56%;
+        margin-top: 15%;
+    }
+
+    .contact_row3 input {
+        width: 94%;
+    }
+
+    .contact__title {
+        text-align: center;
+        margin: 10% 0;
+    }
+
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+
+    .slider_content h1 {
+        font-size: 12px;
+    }
+
+    .footer_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 24px;
+    }
+
+    .footer_menu li {
+        border: none;
+    }
+
+    .footer .footer_contact-left a {
+        font-size: 11px;
+    }
+
+    .footer .footer_contact-left a span {
+        margin-left: 0;
+    }
+
+    .footer_contact-left {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .footer .footer_contact-right a {
+        font-size: 11px;
+    }
+
+    .footer .footer_contact-right a span {
+        margin-left: 0;
+    }
+
+    .footer .footer_contact-right a i {
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+    }
+
+    .footer .footer_contact-left a i {
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+    }
+
+    .footer_contact-right {
+        margin-right: 22px;
+        margin-top: 0;
+    }
+
+    .footer_logo a {
+        margin-top: 8%;
+        font-size: 16px;
+    }
+
+    .footer_logo {
+        margin-top: 90px;
+    }
+
+    .it_live-img {
+        width: 28%;
+    }
+
+}
+
+/* 576 */
+/* .title::after {
+        content: unset;
+    } */
+
+/* .topMain-logo {
         position: absolute;
         top: 17%;
         right: 32%;
@@ -253,15 +521,7 @@
     .contact_row3 input {
         width: 64%;
         margin-left: 18%;
-    }
-
-}
-
-@media (max-width:480px) {}
-
-@media (max-width:412px) {}
-
-@media (max-width:375px) {}
+    } */
 
 @media (max-width:360px) {}
 

@@ -1103,7 +1103,9 @@ a.it_live-logo {
     text-align: center;
     padding-top: 20px;
 }
-
+.it_live-img{
+    width: 10%;
+}
 .year_text {
     display: block;
     text-align: center;
