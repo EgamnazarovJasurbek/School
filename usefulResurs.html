@@ -28,7 +28,29 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
+<style>
+    @media (max-width:412px) {
+        .topMain-logo {
+            position: absolute;
+            top: 17%;
+            right: 35%;
+            color: black;
+        }
 
+        .additionalFuntions {
+            position: absolute;
+            top: 24%;
+            right: 3%;
+        }
+
+        .projectsList {
+            grid-template-columns: unset;
+        }
+        .projectsList .item, .projectsList a.item {
+            padding: 40px 0;
+        }
+    }
+</style>
 <body>
     <!-- Header Start -->
     <header>

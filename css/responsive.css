@@ -50,6 +50,26 @@
         width: 35% !important;
     }
 
+    .listMenu {
+        display: block;
+    }
+
+    .listMenu li {
+        width: 100px;
+    }
+
+    .listMenu .simple {
+        flex-direction: unset;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overlay_li-social {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
     .mainMenuBox {
         display: none !important;
     }
@@ -233,6 +253,10 @@
 @media (max-width:375px) {
     .it_live-img {
         width: 35% !important;
+    }
+
+    .listMenu li {
+        width: 0;
     }
 
     .bottomMainMenu,
