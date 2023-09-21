@@ -261,6 +261,7 @@
 
     .topMain-logo p {
         font-size: 15px;
+        margin-top: 30px;
     }
 
     .headerMenuBox .borderedBtn {
@@ -273,7 +274,7 @@
 
     .additionalFuntions {
         position: absolute;
-        top: 12%;
+        top: 15%;
         right: 3%;
     }
 
