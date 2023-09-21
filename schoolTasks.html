@@ -28,6 +28,42 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
+<style>
+    @media (max-width:412px) {
+        .topMain-logo {
+            position: absolute;
+            top: 14%;
+            right: 35%;
+            color: black;
+        }
+
+        .additionalFuntions {
+            position: absolute;
+            top: 24%;
+            right: 3%;
+        }
+    }
+
+    @media (max-width:375px) {
+        .tasksListWithTicks {
+            grid-template-columns: none;
+        }
+
+        .ourMissionBig .content {
+            width: 0;
+        }
+
+        .greenTitle {
+            font-size: 40px;
+        }
+        .content p{
+            display: none;
+        }
+        .ourMissionBig{
+            background-position: center;
+        }
+    }
+</style>
 
 <body>
     <!-- Header Start -->
