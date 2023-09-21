@@ -273,9 +273,12 @@
         column-gap: 20px;
         margin: 66px 0;
     }
-    .topMainMenu2 ul li a{
+
+    .topMainMenu2 ul li a {
         font-size: 12px;
-    }.topMainMenu2 ul{
+    }
+
+    .topMainMenu2 ul {
         flex-direction: column;
     }
 
@@ -506,115 +509,13 @@
 
 }
 
-/* 576 */
-/* .title::after {
-        content: unset;
-    } */
-
-/* .topMain-logo {
-        position: absolute;
-        top: 17%;
-        right: 32%;
-        color: black;
+@media (max-width:360px) {
+    .contact_row3 {
+        margin-left: -11px
     }
-
-    .topMain-logo p {
-        font-size: 13px;
+    .contact_row3 input{
+        width: 100%;
     }
-
-    .additionalFuntions {
-        position: absolute;
-        top: 20%;
-        right: 5%;
-    }
-
-    .topMainMenu ul {
-        column-gap: 18px;
-    }
-
-    .mainServicesList {
-        margin-top: 95px;
-    }
-
-    .bigBannerContent {
-        background-position: center center;
-        background-size: cover;
-        z-index: 1;
-        opacity: 1.2;
-        margin-top: -74px;
-        height: 498px;
-    }
-
-    .logoTextBox {
-        height: 498px;
-    }
-
-    .logoTextBox__title {
-        margin-top: 0%;
-        font-size: 19px;
-    }
-
-    .quote p {
-        font-size: 15px;
-    }
-
-    .quote {
-        padding-top: 27px;
-    }
-
-    .school_info {
-        margin-left: 31%;
-    }
-
-    .onlineSchool {
-        margin-top: 85px;
-        padding: 0;
-    }
-
-    .onlineSchool__info p {
-        font-size: 17px;
-        text-align: left;
-    }
-
-    .onlineSchool__info {
-        text-align: center;
-    }
-
-    .onlineSchool__info h1 {
-        font-size: 26px;
-    }
-
-    .footer_logo a {
-        margin-top: 13%;
-    }
-
-    .footer .footer_contact-right a span {
-        margin-left: 8px;
-        font-size: 14px;
-    }
-
-    .footer .footer_contact-left a span {
-        margin-left: 8px;
-        font-size: 14px;
-    }
-
-    .footer .footer_contact-left a i {
-        font-size: 30px;
-        width: 43px;
-        text-align: center;
-    }
-
-    .footer .footer_contact-right a i {
-        font-size: 30px;
-        width: 43px;
-        text-align: center;
-    }
-
-    .contact_row3 input {
-        width: 64%;
-        margin-left: 18%;
-    } */
-
-@media (max-width:360px) {}
+}
 
 @media (max-width:320px) {}
