@@ -333,7 +333,16 @@
     }
 
     .contact_row3 input {
-        width: 94%;
+        width: 97%;
+    }
+    .contact_row1 {
+        margin-left: 0px;
+    }
+    .contact_row2 {
+        margin-left: 0px;
+    }
+    .contact_row3 {
+        margin-left: 0px;
     }
 
     .contact__title {
