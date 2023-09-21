@@ -147,6 +147,10 @@
 
 /* Mobile */
 @media (max-width:576px) {
+    .title::after{
+        content: unset;
+    }
+
     .topMain-logo {
         position: absolute;
         top: 17%;
@@ -209,6 +213,7 @@
 
     .onlineSchool__info p {
         font-size: 17px;
+        text-align: left;
     }
 
     .onlineSchool__info {
