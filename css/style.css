@@ -125,9 +125,9 @@ ul li {
     overflow: hidden;
 }
 
-/* .overlay.active {
+.overlay.active {
     left: 0;
-} */
+}
 
 .overlay ul {
     list-style: none;
