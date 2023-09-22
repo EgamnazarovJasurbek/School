@@ -265,6 +265,13 @@
 }
 
 @media (max-width:375px) {
+
+    .headerMenuBox .borderedBtn:hover,
+    .overlay.active {
+        left: 0;
+    }
+
+
     .it_live-img {
         width: 35% !important;
     }
@@ -513,7 +520,8 @@
     .contact_row3 {
         margin-left: -11px
     }
-    .contact_row3 input{
+
+    .contact_row3 input {
         width: 100%;
     }
 }

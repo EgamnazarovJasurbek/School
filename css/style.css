@@ -125,18 +125,16 @@ ul li {
     overflow: hidden;
 }
 
-.overlay.active {
+/* .overlay.active {
     left: 0;
-}
+} */
 
 .overlay ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    /* position: absolute; */
     top: 40%;
     left: 0%;
-    /* transform: translate(-50%, -50%); */
     text-align: start;
 }
 
